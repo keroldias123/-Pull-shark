@@ -167,6 +167,7 @@ src/
 ```
 
 ---
+gh pr create --base main --head feat/readme-update --title "Update README" --body "Small documentation update"
 
 ## Próximos Passos
 
