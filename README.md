@@ -1,25 +1,5 @@
-# Trowdall - E-commerce SaaS Multi-Organização
+echo "## Atualização do README" >> README.md
 
-Projeto monolítico SaaS RBAC multi-empresa, onde **organizações** publicam produtos e **clientes** compram, com controle completo de permissões, pagamentos, entregas e comissão da plataforma.
-
----
-
-## Funcionalidades Principais
-
-### 1. Multi-Organização (Tenancy)
-
-- Cada organização possui seu **domínio, membros, produtos e categorias**.
-- Configuração de **comissão da plataforma**.
-- Membros com roles específicos (`ORG_ADMIN`, `ORG_MEMBER`).
-- Convidar usuários para a organização.
-
-### 2. Controle de Usuários (RBAC)
-
-- Papéis: `PLATFORM_ADMIN`, `ORG_ADMIN`, `ORG_MEMBER`, `CUSTOMER`
-- Policies baseadas em **abilities** (CASL compatível).
-- Autorização dinâmica por usuário e organização.
-- Sessões e autenticação segura.
-- Suporte a contas externas (ex: GitHub).
 
 ### 3. Produtos e Categorias
 
